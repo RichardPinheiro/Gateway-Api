@@ -1,0 +1,22 @@
+{
+  "app": {
+    "port": 5000,
+    "key": "secret",
+    "env": "development"
+  },
+  "log": {
+    "console": {
+      "level": "debug"
+    },
+    "gelf": {
+      "level": "error",
+      "host": "logs.infranw.com.br",
+      "port": 12205
+    }
+  },
+  "amqp": {
+    "host": "amqp://localhost",
+    "anomaly": "detection-queue",
+    "routingDefaultKeys": 0
+  }
+}
