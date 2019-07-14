@@ -1,0 +1,7 @@
+.vscode/
+.idea/
+node_modules/
+doc/
+config/*
+!config/*.template.json
+*.log

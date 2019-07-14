@@ -1,0 +1,31 @@
+# Dependency directories
+node_modules/
+
+# VS Code
+.vscode/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Optional npm cache directory
+.npm
+
+# Output of 'npm pack'
+*.tgzv
+
+# dotenv environment variables file
+.env
+
+# Coverage directory
+coverage/
+
+config/*
+!config/*.template.json
+
+.idea
+
+.scannerwork
+
+sonar-project.properties
