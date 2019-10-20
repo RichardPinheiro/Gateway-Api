@@ -4,6 +4,6 @@ const Authorization = require('../routes/middlewares/Authorization') // TODO: co
 const GatewayController = require('../api/Controllers/GatewayController')
 
 
-router.route('/send-to-api').get(GatewayController.sendToApi)
+router.route('/send-to-api').post(GatewayController.sendToApi)
 
 module.exports = router
